@@ -14,6 +14,6 @@ I’ve worked in both large companies and fast-moving startups, which gave me a 
 
 Right now, I’m part of the frontend team at Mekari, where I help build features for Talenta. I love working with good people, solving real problems, and learning something new along the way.
 
-You can contact me at [risyana@gmail.com][mailto] 
+Contact me: [risyana@gmail.com][mailto] 
 
 [mailto]: mailto:risyana@gmail.com
