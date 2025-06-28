@@ -13,5 +13,8 @@
   "description": "",
   "devDependencies": {
     "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "firebase": "^11.9.1"
   }
 }
