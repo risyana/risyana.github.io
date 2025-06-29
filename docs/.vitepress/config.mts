@@ -10,6 +10,7 @@ export default defineConfig({
       { text: 'Brief', link: '/' },
       { text: 'Skills', link: '/skills' },
       { text: 'Work Experience', link: '/work-experience' },
+      { text: 'Portfolio', link: '/portfolio' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
 

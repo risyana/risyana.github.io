@@ -47,13 +47,14 @@ const skills: SkillCategory = {
 }
 
 .skills div {
-    background-color: #f6f6f7;
-    padding: 15px 30px;
-    border-radius: 5px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    font-size: 14px;
-    color: #333;
-    transition: background-color 0.3s;
+    display: inline-block;
+    background-color: #e2eaff;
+    color: #3451b2;
+    border: 1px solid #3451b2;
+    padding: 6px 9px;
+    font-size: 16px;
+    border-radius: 3px;
 }
 
 .skills div:hover {
