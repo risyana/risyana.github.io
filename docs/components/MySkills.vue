@@ -28,7 +28,7 @@ const skills: SkillCategory = {
             </div>
         </div>
 
-        <h3>Technical skill</h3>
+        <h3>Technology / tools</h3>
 
         <div class="skills">
             <div v-for="technical in skills.technical" :key="technical">
