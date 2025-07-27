@@ -11,21 +11,12 @@ export default defineConfig({
       { text: 'Skills', link: '/skills' },
       { text: 'Work Experience', link: '/work-experience' },
       { text: 'Portfolio', link: '/portfolio' },
-      { text: 'Examples', link: '/markdown-examples' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: [],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/risyana' }
     ]
   }
 })
