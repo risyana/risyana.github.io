@@ -7,20 +7,20 @@ type SkillCategory = {
 
 const skills: SkillCategory = {
     soft: [
-        'Teaching', 'Problem solving', 'Leadership', 'Team player'
+        'Effective Communication',  'Problem solving', 'Time management', 'Team player', 'Adaptability', 'Leadership',
     ],
     technical: [
         'HTML', 'CSS', 'Vue', 'Nuxt', 'Vuex', 'Vuetify',
-        'Responsive Web', 'JavaScript (ES6)', 'REST API', 'Version Control (Git, SVN)', 'SCSS ',
+        'Responsive Web', 'JavaScript (ES6)', 'REST API', 'Version Control (Git, SVN)', 'SCSS/SASS',
         'ReactJS', 'NodeJS (Express)', 'DBMS (Oracle, MySQL, SQLite)', 'SQL',
-        'Unit test (Jest)', 'Agile Tools (Jira, Trello)', 'Firebase (DB, Hosting)', 'Visualization (Highchart, D3)', 'Docker ',
+        'Unit test (Jest)', 'Agile Tools (Jira, Trello)', 'Firebase (DB, Hosting)', 'Visualization (Highchart, D3)', 'Docker',
     ]
 };
 </script>
 
 <template>
     <main class="page">
-        <h3>Soft skill</h3>
+        <h3>General</h3>
 
         <div class="skills">
             <div v-for="soft in skills.soft" :key="soft">
