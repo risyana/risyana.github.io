@@ -7,11 +7,11 @@ type SkillCategory = {
 
 const skills: SkillCategory = {
     soft: [
-        'Effective Communication',  'Problem solving', 'Time management', 'Team player', 'Adaptability', 'Leadership',
+        'Effective Communication', 'Problem solving', 'Time management', 'Team player', 'Adaptability', 'Leadership',
     ],
     technical: [
         'HTML', 'CSS', 'Vue', 'Nuxt', 'Vuex', 'Vuetify',
-        'Responsive Web', 'JavaScript (ES6)', 'REST API', 'Version Control (Git, SVN)', 'SCSS/SASS',
+        'Responsive Web', 'JavaScript (ES6)', 'AI coding assistant', 'REST API', 'Version Control (Git, SVN)', 'SCSS/SASS',
         'ReactJS', 'NodeJS (Express)', 'DBMS (Oracle, MySQL, SQLite)', 'SQL',
         'Unit test (Jest)', 'Agile Tools (Jira, Trello)', 'Firebase (DB, Hosting)', 'Visualization (Highchart, D3)', 'Docker',
     ]
