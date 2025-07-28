@@ -2,6 +2,7 @@
 
 interface WorkExperience {
     company: string;
+    description?: string;
     position: string;
     start_date: string;
     end_date: string;
@@ -18,7 +19,8 @@ const workExperiences: WorkExperience[] = [
         summary: '3+ years',
     },
     {
-        company: 'Telkom (Vutura / Vuca / ChatAja)',
+        company: 'Metranet by Telkom Indonesia',
+        description: '(Vutura / ChatAja)',
         position: 'Frontend Developer',
         start_date: '2019',
         end_date: '2021',
@@ -41,9 +43,10 @@ const workExperiences: WorkExperience[] = [
         <h3>Work Experience</h3>
 
         <div class="work-experiences">
-            <div v-for="workExperience in workExperiences" :key="workExperience">
-                <h4>{{ workExperience.company }}</h4>
-                <p>{{ workExperience.start_date }} - {{ workExperience.end_date }}
+            <div v-for="workExperience in workExperiences" :key="workExperience.company">
+                <h4 style="text-align: center;">{{ workExperience.company }}</h4>
+                <p v-if="workExperience.description" style="text-align: center;">{{ workExperience.description }}</p>
+                <p style="font-weight:bold;">{{ workExperience.start_date }} - {{ workExperience.end_date }}
                     <span style="font-size: 12px;"> ({{ workExperience.summary }})</span>
                 </p>
                 <p>{{ workExperience.position }}</p>
@@ -82,7 +85,7 @@ const workExperiences: WorkExperience[] = [
     .work-experiences div {
         width: 99%;
     }
-}   
+}
 
 h3 {
     margin: 20px 0;
