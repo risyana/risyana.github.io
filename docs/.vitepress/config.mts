@@ -7,10 +7,10 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Brief', link: '/' },
-      { text: 'Skills', link: '/skills' },
-      { text: 'Work Experience', link: '/work-experience' },
-      { text: 'Portfolio', link: '/portfolio' },
+      { text: 'Home', link: '/' },
+      { text: 'Skills & Competencies', link: '/skills' },
+      { text: 'Professional Experience', link: '/work-experience' },
+      { text: 'Project Portfolio', link: '/portfolio' },
     ],
 
     sidebar: [],
