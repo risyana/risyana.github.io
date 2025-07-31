@@ -27,7 +27,7 @@ const workExperiences: WorkExperience[] = [
         summary: '2+ years',
     },
     {
-        company: 'Fujitsu Indoneia',
+        company: 'Fujitsu Indonesia',
         position: 'ERP Consultant',
         start_date: '2013',
         end_date: '2019',
