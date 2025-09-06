@@ -6,15 +6,11 @@ hero:
   tagline: "Frontend developer" 
 ---
 
-Hi! I’m Eka Risyana, a frontend developer. 
+Hi! I’m Eka Risyana, a frontend developer with 6+ years of experience building clean, responsive, and maintainable interfaces.
 
-I started my career working with ERP systems, and over time, I shifted my focus to frontend development, especially with Vue.js, which has been my main toolkit in recent years.
+My main expertise is in Vue.js, but I’m always eager to explore and adapt to new tools or frameworks when projects require it. I’ve worked in both large companies and fast-moving startups, which gave me a balance of structured practices and agile problem-solving.
 
-I’ve worked in both large companies and fast-moving startups, which gave me a good mix of structure and flexibility. I enjoy turning designs into clean, responsive interfaces, collaborating with product and design teams, and writing code that’s easy to maintain (and hopefully pleasant to read).
-
-Right now, I’m part of the frontend team at Mekari, where I help build features for Talenta. I love working with good people, solving real problems, and learning something new along the way.
-
-I’m quick to adapt and always eager to pick up new tools and frameworks when the project calls for it.
+Currently, I’m part of the frontend team at Mekari, where I help build features for Talenta. I enjoy collaborating with product and design teams, turning ideas into user-friendly solutions, and continuously learning along the way.
 
 Contact me: [risyana@gmail.com][mailto] 
 
